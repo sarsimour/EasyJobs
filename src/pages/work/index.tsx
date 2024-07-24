@@ -1,14 +1,15 @@
-import React from 'react';
-import { View, Text } from '@tarojs/components';
-import BottomNav from '../../components/BottomNavigation';
+import React from 'react'
+import { View } from '@tarojs/components'
+import FilterPage from '../../components/FilterPage'
 
-const WorkPage: React.FC = () => {
+import './index.scss'
+
+const Work: React.FC = () => {
   return (
-    <View className="work-page">
-      <Text>工作页面</Text>
-      <BottomNav />
+    <View className='work'>
+      <FilterPage />
     </View>
-  );
-};
+  )
+}
 
-export default WorkPage;
+export default Work

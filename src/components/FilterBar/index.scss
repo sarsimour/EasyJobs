@@ -1,0 +1,25 @@
+.filter-bar {
+  padding: 10px;
+
+  .filter-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .at-button {
+      flex: 1 1 calc(33.333% - 10px);
+      margin-bottom: 10px;
+    }
+  }
+
+  .filter-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .at-button {
+      flex: 1;
+      margin: 0 5px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.work {
+  padding: 10px;
+
+  .filter-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .at-button {
+      flex: 1 1 calc(33.333% - 10px);
+      margin-bottom: 10px;
+    }
+  }
+}
